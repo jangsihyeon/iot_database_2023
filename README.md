@@ -31,3 +31,7 @@ iot 개발자 과정 데이터 베이스-  MySQL
     - SQL 고급 
         - 데이터 형식
         - JOIN 
+        - 테이블 / 뷰 
+        - INDEX 
+2. MySQL 활용
+    - BookRentalShop 쿼리 연습 
