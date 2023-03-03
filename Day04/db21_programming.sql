@@ -1,0 +1,17 @@
+DELIMITER $$
+CREATE PROCEDURE IFPROC()
+BEGIN 
+	DECLARE VAR1 INT;
+    SET VAR1=100;
+    
+    IF VAR1= 100 THEN 
+    BEGIN 
+		SELECT '100입니다' ;
+	END;
+    ELSE
+    BEGIN 
+		SELECT '100이 아닙니다';
+	END;
+    END IF;
+END$$
+    

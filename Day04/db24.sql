@@ -1,0 +1,7 @@
+CREATE VIEW UV_USERTBL
+AS 
+	SELECT U.USERID
+         , U.NAME
+         , U.BIRTHYEAR
+         , U.ADDR 
+      FROM USERTBL AS U;
