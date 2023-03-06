@@ -18,7 +18,7 @@ USE sqldb;
 
 -- 조건절로 검색 
 SELECT userID
-	   ,name        -- name은 키워드(sql만)
+	     ,name        -- name은 키워드(sql만)
        ,birthYear
        ,height 
    FROM usertbl
