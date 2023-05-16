@@ -43,7 +43,6 @@ SELECT *
  FROM membertbl;
  
 -- 5
-
 SELECT CASE WHEN GROUPING(B.Division) = 1 THEN '--합계--'
      WHEN b.Division = 'B001' then '공포/스릴러'
      WHEN b.Division = 'B002' then '로맨스'
